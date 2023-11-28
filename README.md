@@ -1,7 +1,7 @@
 # Weather App Coding Test Assignment
 
 # Overview
-This Weather App coding test assignment is completed by Jade Lee. The application is designed to provide real-time weather information for cities worldwide. The codebase has been enhanced and optimized based on the provided starting point.
+This Weather App coding assignment is completed by Jade Lee. The application is designed to provide real-time weather information for cities worldwide. The codebase has been enhanced and optimized based on the provided starting point.
 
 # Key Features
 Detailed Weather Information: Additional weather-related details, such as humidity, are displayed for a more comprehensive overview.
@@ -46,6 +46,9 @@ To run the application locally, follow these steps:
 
 # Note on City Search
 Ensure you provide accurate city names for precise weather information. Non-existing city names will be gracefully handled.
+
+# Apikey for OpenWeatherMap
+In the case of the apiKey in App.js, please use a separate API key issued by OpenWeatherMap. If you encounter any issues during the issuance process, please contact us.
 
 # Additional Information
 For any questions or further clarification, feel free to contact me.
