@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
+body {
+  /* Set background properties using an image from Pixabay */
+  background: url(https://cdn.pixabay.com/photo/2016/06/09/14/13/raindrop-1445835_1280.jpg)
+    no-repeat;
+  background-size: cover; /* Ensure background covers the entire viewport */
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+  margin: 0; /* Remove default margin on the body */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* Center content vertically and horizontally using flexbox */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  /* Arrange content in a row, add margin at the bottom, and center horizontally */
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  justify-content: center; /* Center content horizontally */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-container {
+  /* Arrange menu buttons in a row, add margin at the bottom, and center both vertically and horizontally */
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+}
+
+.search-container {
+  /* Arrange search-related elements in a row and center both vertically and horizontally */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
 }

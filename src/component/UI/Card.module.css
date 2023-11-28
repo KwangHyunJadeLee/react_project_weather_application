@@ -1,0 +1,13 @@
+/* Card Styling */
+.card {
+  border: 3px solid #fff;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin: 0 10px; /* Adjusts the spacing between columns */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
